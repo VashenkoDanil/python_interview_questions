@@ -960,7 +960,7 @@
 <details>
 <summary><b>58. Какой результат выводит данный код:</b></summary><br>
 
-```python
+>```python
 >>>> def extendList(val, list=[]):
 >        list.append(val)
 >        return list
