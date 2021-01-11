@@ -22,14 +22,14 @@
 
 > Основная разница в том, что список может изменяться (mutable), а кортеж не может (immutable).
 >```python
->    >>> mylist = [1, 3, 3]
->    >>> mylist[1] = 2
->    >>> mytuple = (1, 3, 3)
->    >>> mytuple[1] = 2
->    Traceback (most recent call last):
->    File “<pyshell#97>”, line 1, in
->    mytuple[1] = 2
->    TypeError: "tuple" object does not support item assignment
+>>>> mylist = [1, 3, 3]
+>>>> mylist[1] = 2
+>>>> mytuple = (1, 3, 3)
+>>>> mytuple[1] = 2
+>Traceback (most recent call last):
+>File “<pyshell#97>”, line 1, in
+>mytuple[1] = 2
+>TypeError: "tuple" object does not support item assignment
 >```
 </details>
 
